@@ -30,12 +30,17 @@
   </head>
   <body id="body">
     <!-- front page!-->
-    <p class="backarrow" id="backarrowid">&larr; BACK TO HOME</p>
+    <button class="backarrow" id="backarrowid">&larr; BACK TO HOME</button>
+
      <div class="frontpagediv" id="frontpagedivid">
-      <p class="title">CRYSTAL</p>
+      <div style="text-align: center;">
+        <img src="images/icons8-crystal-60.png" alt="">
+        <p class="title">CRYSTAL V5</p>
+        <p id="randomtext" style="color: white; margin-bottom: 200px;font-family: Overpass, sans-serif; font-size: 17px;font-style:italic;"></p>
+      </div>
       <div style="display: flex; margin-right: auto; margin-left: auto; justify-content: center;gap: 70px;">
-        <button  onclick="sussy()" class="frontpagebuttons" style="margin-bottom: 30px; margin-top: 0px;">PLAY</button>
-        <button onclick="susssy()" class="frontpagebuttons">UPDATES</button>
+        <button  onclick="sussy()" class="frontpagebuttons" style="margin-bottom: 30px; margin-top: 0px;">▶ PLAY</button>
+        <button onclick="susssy()" class="frontpagebuttons">⬆ UPDATES</button>
        </div>
      </div>
 
@@ -73,6 +78,10 @@
           <img src="/gamethumbnails/basketrandomthumb.png" class="gamethumbs" />
           Basket Random
         </button>
+        <button id="buttonbottle" class="gamebuttons" title="Click to play">
+          <img src="/gamethumbnails/bottleflipthumb.png" class="gamethumbs" />
+          Bottle Flip
+        </button>
         <button id="buttonboxing" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/boxingrandomthumb.png" class="gamethumbs" />
           Boxing Random
@@ -94,6 +103,10 @@
         <button id="buttondeath" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/death3dthumb.png" class="gamethumbs" />
           Death Run 3D
+        </button>
+        <button id="buttondouble" class="gamebuttons" title="Click to play">
+          <img src="/gamethumbnails/doublewiresthumb.png" class="gamethumbs" />
+          Double Wires
         </button>
         <button id="buttondraw" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/drawthehillthumb.png" class="gamethumbs" />
@@ -163,11 +176,24 @@
           <img src="/gamethumbnails/soccerrandomthumb.png" class="gamethumbs" />
           Soccer Random
         </button>
+        <button id="buttonstack" class="gamebuttons" title="Click to play">
+          <img src="/gamethumbnails/stackthumb.png" class="gamethumbs" />
+          Stack
+        </button>
         <button id="buttonsubway" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/subwaythumb.png" class="gamethumbs" />
           Subway Sufers
         </button>
+        <p class="borders">T</p>
+        <button id="buttontunnel" class="gamebuttons" title="Click to play">
+          <img src="gamethumbnails/tunnelrushthumb.png" class="gamethumbs" />
+          Tunnel Rush
+        </button>
         <p class="borders">V</p>
+        <button id="buttonvex5" class="gamebuttons" title="Click to play">
+          <img src="/gamethumbnails/vex5thumb.png" class="gamethumbs" />
+          Vex 5
+        </button>
         <button id="buttonvex" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/vex6thumb.png" class="gamethumbs" />
           Vex 6
@@ -185,18 +211,29 @@
      </div>
     <!--updates page!!!!!-->
       <div class="updatesdiv" id="updatesdivid">
-        <h1 style="background-color: rgb(112, 112, 112); margin-top: 0px; padding-bottom: 30px; text-align: center; padding-top: 15px; border-radius: 5px;">UPDATE LOG</h1>
-        <h1 class="updatedate">7/4/2024</h1>
-        <p class="updatecontent">man i dont kknow vvg5 release ii guess</p>
-        <p class="updatecontent">oh yeah uh no new games <span style="font-weight: bold;">yet</span></p>
-        <p class="updatecontent">also dont ask why this update took so long to complete</p>
-
-
+        <h1 class="updatedate">7/16/2024</h1>
+        <hr class="hrs">
+        <p class="updatecontent">*this update has been significantly delayed because of me having no elctricity for a week*</p>
+        <p class="updatecontent">+ fixed some UI hitboxes</p>
+        <p class="updatecontent">+ resized and restyled some UI elements</p>
+        <p class="updatecontent">+ added some text underneath the main title</p>
+        <p class="updatecontent">addded 5 new games:</p>
+        <p class="updatecontent">+ tunnel rush</p>
+        <p class="updatecontent">+ vex 5</p>
+        <p class="updatecontent">+ stack</p>
+        <p class="updatecontent">+ double wires</p>
+        <p class="updatecontent">+ bottle flip</p>
+        <hr class="hrs">
+        <h1 class="updatedate">7/4/2024 - V5 Release</h1>
+        <hr class="hrs">
+        <p class="updatecontent">V5 Release</p>
+        <p class="updatecontent">dont worry im adding new games trust</p>
       </div>
 
     <script src="index2.js"></script>
-    <script src="index.js"></script>
+    <script src="index4.js"></script>
     <script src="index3.js"></script>
+    <script src="index5.js"></script>
     
   </body>
 </html>

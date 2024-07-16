@@ -9,7 +9,7 @@ var updatesdiv =  document.getElementById("updatesdivid");
 
 function sussy(){
   frontpagediv.style.transform = 'translateY(-150%)';
-  gamediv.style.transform = 'translateY(-100%)';
+  gamediv.style.transform = 'translateY(-90%)';
   backarrow.style.opacity = 1;
 }
 
@@ -25,6 +25,6 @@ backarrow.onclick = function(){
 
 function susssy(){
   frontpagediv.style.transform = 'translateY(-150%)';
-  updatesdiv.style.transform = 'translateY(-220%)';
+  updatesdiv.style.transform = 'translateY(-210%)';
   backarrow.style.opacity = 1;
 }
